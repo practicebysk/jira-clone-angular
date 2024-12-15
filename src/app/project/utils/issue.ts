@@ -1,5 +1,5 @@
-import { IssuePriority, IssueType } from '@trungk18/interface/issue';
-import { IssuePriorityIcon } from '@trungk18/interface/issue-priority-icon';
+import { IssuePriority, IssueType } from '@kinarsardhara/interface/issue';
+import { IssuePriorityIcon } from '@kinarsardhara/interface/issue-priority-icon';
 
 export class IssueUtil {
   static getIssueTypeIcon(issueType: IssueType): string {

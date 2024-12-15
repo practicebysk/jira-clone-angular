@@ -1,9 +1,9 @@
 import { Component, Input } from '@angular/core';
-import { IssueType } from '@trungk18/interface/issue';
-import { IssueUtil } from '@trungk18/project/utils/issue';
-import { IssueTypeWithIcon } from '@trungk18/interface/issue-type-icon';
+import { IssueType } from '@kinarsardhara/interface/issue';
+import { IssueUtil } from '@kinarsardhara/project/utils/issue';
+import { IssueTypeWithIcon } from '@kinarsardhara/interface/issue-type-icon';
 import { FormControl } from '@angular/forms';
-import { ProjectConst } from '@trungk18/project/config/const';
+import { ProjectConst } from '@kinarsardhara/project/config/const';
 
 @Component({
   selector: 'issue-type-select',

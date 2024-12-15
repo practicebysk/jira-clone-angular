@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { JUser } from '@trungk18/interface/user';
+import { JUser } from '@kinarsardhara/interface/user';
 
 @Component({
   selector: 'j-user',

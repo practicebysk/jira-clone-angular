@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { UntilDestroy } from '@ngneat/until-destroy';
-import { IssueStatus } from '@trungk18/interface/issue';
-import { ProjectQuery } from '@trungk18/project/state/project/project.query';
-import { AuthQuery } from '@trungk18/project/auth/auth.query';
+import { IssueStatus } from '@kinarsardhara/interface/issue';
+import { ProjectQuery } from '@kinarsardhara/project/state/project/project.query';
+import { AuthQuery } from '@kinarsardhara/project/auth/auth.query';
 @UntilDestroy()
 @Component({
   selector: 'board-dnd',

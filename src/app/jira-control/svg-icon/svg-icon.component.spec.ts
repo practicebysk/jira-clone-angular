@@ -1,4 +1,4 @@
-import {SvgIconComponent} from '@trungk18/jira-control/svg-icon/svg-icon.component';
+import {SvgIconComponent} from '@kinarsardhara/jira-control/svg-icon/svg-icon.component';
 
 describe('SvgIconComponent', () => {
   let component: SvgIconComponent;

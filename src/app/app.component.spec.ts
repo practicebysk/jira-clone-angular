@@ -1,4 +1,4 @@
-import { AppComponent } from '@trungk18/app.component';
+import { AppComponent } from '@kinarsardhara/app.component';
 import { NavigationEnd } from '@angular/router';
 import { environment } from '../environments/environment';
 

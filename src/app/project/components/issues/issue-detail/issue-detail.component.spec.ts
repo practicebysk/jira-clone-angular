@@ -1,5 +1,5 @@
-import {IssueDetailComponent} from '@trungk18/project/components/issues/issue-detail/issue-detail.component';
-import {IssuePriority, IssueStatus, IssueType} from '@trungk18/interface/issue';
+import {IssueDetailComponent} from '@kinarsardhara/project/components/issues/issue-detail/issue-detail.component';
+import {IssuePriority, IssueStatus, IssueType} from '@kinarsardhara/interface/issue';
 
 describe('IssueDetailComponent', () => {
   let component: IssueDetailComponent;

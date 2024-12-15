@@ -1,5 +1,5 @@
 import {TestBed} from '@angular/core/testing';
-import {WorkInProgressModule} from '@trungk18/work-in-progress/work-in-progress.module';
+import {WorkInProgressModule} from '@kinarsardhara/work-in-progress/work-in-progress.module';
 
 describe('WorkInProgressModule', () => {
   let module: WorkInProgressModule;

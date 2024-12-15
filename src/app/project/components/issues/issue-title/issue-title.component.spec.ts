@@ -1,8 +1,8 @@
 import { FormControl } from '@angular/forms';
 import { IssueTitleComponent } from './issue-title.component';
 import {SimpleChange} from '@angular/core';
-import {JComment} from '@trungk18/interface/comment';
-import {IssuePriority, IssueStatus, IssueType} from '@trungk18/interface/issue';
+import {JComment} from '@kinarsardhara/interface/comment';
+import {IssuePriority, IssueStatus, IssueType} from '@kinarsardhara/interface/issue';
 
 describe('IssueTitleComponent', () => {
   let component: IssueTitleComponent;

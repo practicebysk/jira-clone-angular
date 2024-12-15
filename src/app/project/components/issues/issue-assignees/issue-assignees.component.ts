@@ -1,8 +1,8 @@
 import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { UntilDestroy } from '@ngneat/until-destroy';
-import { JIssue } from '@trungk18/interface/issue';
-import { JUser } from '@trungk18/interface/user';
-import { ProjectService } from '@trungk18/project/state/project/project.service';
+import { JIssue } from '@kinarsardhara/interface/issue';
+import { JUser } from '@kinarsardhara/interface/user';
+import { ProjectService } from '@kinarsardhara/project/state/project/project.service';
 
 @Component({
   selector: 'issue-assignees',

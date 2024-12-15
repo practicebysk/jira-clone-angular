@@ -11,7 +11,7 @@ const initSentry = () => {
     autoSessionTracking: true,
     integrations: [
       new Integrations.BrowserTracing({
-        tracingOrigins: ['localhost', 'https://jira.trungk18.com/'],
+        tracingOrigins: ['localhost', 'https://jira.kinarsardhara.com/'],
         routingInstrumentation: Sentry.routingInstrumentation
       })
     ],

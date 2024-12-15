@@ -1,10 +1,10 @@
 import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
-import { JIssue } from '@trungk18/interface/issue';
-import { ProjectService } from '@trungk18/project/state/project/project.service';
+import { JIssue } from '@kinarsardhara/interface/issue';
+import { ProjectService } from '@kinarsardhara/project/state/project/project.service';
 import { NzModalRef } from 'ng-zorro-antd/modal';
 import { Observable } from 'rxjs';
-import { DeleteIssueModel } from '@trungk18/interface/ui-model/delete-issue-model';
+import { DeleteIssueModel } from '@kinarsardhara/interface/ui-model/delete-issue-model';
 
 @Component({
   selector: 'issue-modal',

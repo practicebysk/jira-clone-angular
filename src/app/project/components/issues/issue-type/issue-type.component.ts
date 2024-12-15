@@ -1,9 +1,9 @@
 import { Component, Input, OnChanges, OnInit } from '@angular/core';
-import { IssueType, JIssue } from '@trungk18/interface/issue';
-import { IssueTypeWithIcon } from '@trungk18/interface/issue-type-icon';
-import { ProjectService } from '@trungk18/project/state/project/project.service';
-import { IssueUtil } from '@trungk18/project/utils/issue';
-import { ProjectConst } from '@trungk18/project/config/const';
+import { IssueType, JIssue } from '@kinarsardhara/interface/issue';
+import { IssueTypeWithIcon } from '@kinarsardhara/interface/issue-type-icon';
+import { ProjectService } from '@kinarsardhara/project/state/project/project.service';
+import { IssueUtil } from '@kinarsardhara/project/utils/issue';
+import { ProjectConst } from '@kinarsardhara/project/config/const';
 
 @Component({
   selector: 'issue-type',

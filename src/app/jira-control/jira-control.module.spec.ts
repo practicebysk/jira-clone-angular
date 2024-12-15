@@ -1,5 +1,5 @@
 import { TestBed } from '@angular/core/testing';
-import { JiraControlModule } from '@trungk18/jira-control/jira-control.module';
+import { JiraControlModule } from '@kinarsardhara/jira-control/jira-control.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 

@@ -1,4 +1,4 @@
-import { InputComponent } from '@trungk18/jira-control/input/input.component';
+import { InputComponent } from '@kinarsardhara/jira-control/input/input.component';
 
 describe('InputComponent', () => {
   let component: InputComponent;

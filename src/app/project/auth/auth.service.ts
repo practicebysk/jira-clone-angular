@@ -1,11 +1,11 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { JUser } from '@trungk18/interface/user';
+import { JUser } from '@kinarsardhara/interface/user';
 import { of } from 'rxjs';
 import { catchError, finalize, map } from 'rxjs/operators';
 import { AuthStore } from './auth.store';
 import { environment } from 'src/environments/environment';
-import { LoginPayload } from '@trungk18/project/auth/loginPayload';
+import { LoginPayload } from '@kinarsardhara/project/auth/loginPayload';
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {

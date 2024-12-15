@@ -1,9 +1,9 @@
 import { Component, Input } from '@angular/core';
 import { FormControl } from '@angular/forms';
-import { IssuePriorityIcon } from '@trungk18/interface/issue-priority-icon';
-import { IssueUtil } from '@trungk18/project/utils/issue';
-import { IssuePriority } from '@trungk18/interface/issue';
-import { ProjectConst } from '@trungk18/project/config/const';
+import { IssuePriorityIcon } from '@kinarsardhara/interface/issue-priority-icon';
+import { IssueUtil } from '@kinarsardhara/project/utils/issue';
+import { IssuePriority } from '@kinarsardhara/interface/issue';
+import { ProjectConst } from '@kinarsardhara/project/config/const';
 
 @Component({
   selector: 'issue-priority-select',

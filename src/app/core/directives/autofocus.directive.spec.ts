@@ -1,4 +1,4 @@
-import { AutofocusDirective } from '@trungk18/core/directives/autofocus.directive';
+import { AutofocusDirective } from '@kinarsardhara/core/directives/autofocus.directive';
 import { fakeAsync, tick } from '@angular/core/testing';
 
 describe('AutofocusDirective', () => {

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { JUser } from '@trungk18/interface/user';
+import { JUser } from '@kinarsardhara/interface/user';
 import { Store, StoreConfig } from '@datorama/akita';
 
 export interface AuthState extends JUser {

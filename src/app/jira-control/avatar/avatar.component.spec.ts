@@ -1,4 +1,4 @@
-import {AvatarComponent} from '@trungk18/jira-control/avatar/avatar.component';
+import {AvatarComponent} from '@kinarsardhara/jira-control/avatar/avatar.component';
 
 describe('AvatarComponent', () => {
   let component: AvatarComponent;

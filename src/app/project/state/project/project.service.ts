@@ -1,10 +1,10 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { arrayRemove, arrayUpsert, setLoading } from '@datorama/akita';
-import { JComment } from '@trungk18/interface/comment';
-import { JIssue } from '@trungk18/interface/issue';
-import { JProject } from '@trungk18/interface/project';
-import { DateUtil } from '@trungk18/project/utils/date';
+import { JComment } from '@kinarsardhara/interface/comment';
+import { JIssue } from '@kinarsardhara/interface/issue';
+import { JProject } from '@kinarsardhara/interface/project';
+import { DateUtil } from '@kinarsardhara/project/utils/date';
 import { of } from 'rxjs';
 import { catchError, tap } from 'rxjs/operators';
 import { environment } from 'src/environments/environment';

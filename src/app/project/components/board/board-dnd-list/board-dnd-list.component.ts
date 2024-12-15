@@ -1,13 +1,13 @@
 import { CdkDragDrop, moveItemInArray, transferArrayItem } from '@angular/cdk/drag-drop';
 import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
-import { IssueStatus, IssueStatusDisplay, JIssue } from '@trungk18/interface/issue';
-import { FilterState } from '@trungk18/project/state/filter/filter.store';
-import { ProjectService } from '@trungk18/project/state/project/project.service';
+import { IssueStatus, IssueStatusDisplay, JIssue } from '@kinarsardhara/interface/issue';
+import { FilterState } from '@kinarsardhara/project/state/filter/filter.store';
+import { ProjectService } from '@kinarsardhara/project/state/project/project.service';
 import { Observable, combineLatest } from 'rxjs';
 import { untilDestroyed, UntilDestroy } from '@ngneat/until-destroy';
-import { FilterQuery } from '@trungk18/project/state/filter/filter.query';
+import { FilterQuery } from '@kinarsardhara/project/state/filter/filter.query';
 import * as dateFns from 'date-fns';
-import { IssueUtil } from '@trungk18/project/utils/issue';
+import { IssueUtil } from '@kinarsardhara/project/utils/issue';
 
 @Component({
   selector: '[board-dnd-list]',

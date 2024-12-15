@@ -1,10 +1,10 @@
 import {Component, Input, OnChanges, OnInit, SimpleChanges} from '@angular/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { JIssue } from '@trungk18/interface/issue';
-import { IssuePriorityIcon } from '@trungk18/interface/issue-priority-icon';
-import { JUser } from '@trungk18/interface/user';
-import { ProjectQuery } from '@trungk18/project/state/project/project.query';
-import { IssueUtil } from '@trungk18/project/utils/issue';
+import { JIssue } from '@kinarsardhara/interface/issue';
+import { IssuePriorityIcon } from '@kinarsardhara/interface/issue-priority-icon';
+import { JUser } from '@kinarsardhara/interface/user';
+import { ProjectQuery } from '@kinarsardhara/project/state/project/project.query';
+import { IssueUtil } from '@kinarsardhara/project/utils/issue';
 import { NzModalService } from 'ng-zorro-antd/modal';
 import { IssueModalComponent } from '../issue-modal/issue-modal.component';
 

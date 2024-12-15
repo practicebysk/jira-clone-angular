@@ -1,17 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
-import { IssueType, JIssue, IssueStatus, IssuePriority } from '@trungk18/interface/issue';
-import { quillConfiguration } from '@trungk18/project/config/editor';
+import { IssueType, JIssue, IssueStatus, IssuePriority } from '@kinarsardhara/interface/issue';
+import { quillConfiguration } from '@kinarsardhara/project/config/editor';
 import { NzModalRef } from 'ng-zorro-antd/modal';
-import { ProjectService } from '@trungk18/project/state/project/project.service';
-import { IssueUtil } from '@trungk18/project/utils/issue';
-import { ProjectQuery } from '@trungk18/project/state/project/project.query';
+import { ProjectService } from '@kinarsardhara/project/state/project/project.service';
+import { IssueUtil } from '@kinarsardhara/project/utils/issue';
+import { ProjectQuery } from '@kinarsardhara/project/state/project/project.query';
 import { untilDestroyed, UntilDestroy } from '@ngneat/until-destroy';
 import { Observable } from 'rxjs';
-import { JUser } from '@trungk18/interface/user';
+import { JUser } from '@kinarsardhara/interface/user';
 import { tap } from 'rxjs/operators';
-import { NoWhitespaceValidator } from '@trungk18/core/validators/no-whitespace.validator';
-import { DateUtil } from '@trungk18/project/utils/date';
+import { NoWhitespaceValidator } from '@kinarsardhara/core/validators/no-whitespace.validator';
+import { DateUtil } from '@kinarsardhara/project/utils/date';
 
 @Component({
   selector: 'add-issue-modal',

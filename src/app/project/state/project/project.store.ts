@@ -1,4 +1,4 @@
-import { JProject } from '@trungk18/interface/project';
+import { JProject } from '@kinarsardhara/interface/project';
 import { Store, StoreConfig } from '@datorama/akita';
 import { Injectable } from '@angular/core';
 

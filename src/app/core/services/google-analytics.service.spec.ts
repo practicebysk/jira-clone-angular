@@ -1,4 +1,4 @@
-import {GoogleAnalyticsService} from '@trungk18/core/services/google-analytics.service';
+import {GoogleAnalyticsService} from '@kinarsardhara/core/services/google-analytics.service';
 
 describe('GoogleAnalyticsService', () => {
   let service: GoogleAnalyticsService;

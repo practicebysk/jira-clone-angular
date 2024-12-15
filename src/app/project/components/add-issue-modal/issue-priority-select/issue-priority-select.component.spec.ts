@@ -1,5 +1,5 @@
-import { IssuePrioritySelectComponent } from '@trungk18/project/components/add-issue-modal/issue-priority-select/issue-priority-select.component';
-import { IssuePriority } from '@trungk18/interface/issue';
+import { IssuePrioritySelectComponent } from '@kinarsardhara/project/components/add-issue-modal/issue-priority-select/issue-priority-select.component';
+import { IssuePriority } from '@kinarsardhara/interface/issue';
 
 describe('IssuePrioritySelectComponent', () => {
   let component: IssuePrioritySelectComponent;

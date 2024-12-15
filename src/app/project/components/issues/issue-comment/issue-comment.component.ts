@@ -1,10 +1,10 @@
 import { Component, Input, OnInit, HostListener, ElementRef, ViewChild } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { JComment } from '@trungk18/interface/comment';
-import { JUser } from '@trungk18/interface/user';
-import { AuthQuery } from '@trungk18/project/auth/auth.query';
-import { ProjectService } from '@trungk18/project/state/project/project.service';
+import { JComment } from '@kinarsardhara/interface/comment';
+import { JUser } from '@kinarsardhara/interface/user';
+import { AuthQuery } from '@kinarsardhara/project/auth/auth.query';
+import { ProjectService } from '@kinarsardhara/project/state/project/project.service';
 
 @Component({
   selector: 'issue-comment',

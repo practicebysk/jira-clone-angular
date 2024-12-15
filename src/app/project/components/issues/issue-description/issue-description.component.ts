@@ -1,8 +1,8 @@
 import { Component, Input, OnChanges, SimpleChanges, ViewEncapsulation } from '@angular/core';
-import { JIssue } from '@trungk18/interface/issue';
+import { JIssue } from '@kinarsardhara/interface/issue';
 import { FormControl } from '@angular/forms';
-import { quillConfiguration } from '@trungk18/project/config/editor';
-import { ProjectService } from '@trungk18/project/state/project/project.service';
+import { quillConfiguration } from '@kinarsardhara/project/config/editor';
+import { ProjectService } from '@kinarsardhara/project/state/project/project.service';
 
 @Component({
   selector: 'issue-description',

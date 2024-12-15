@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
-import { JIssue } from '@trungk18/interface/issue';
-import { IssueUtil } from '@trungk18/project/utils/issue';
+import { JIssue } from '@kinarsardhara/interface/issue';
+import { IssueUtil } from '@kinarsardhara/project/utils/issue';
 
 @Component({
   selector: 'issue-result',

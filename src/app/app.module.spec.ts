@@ -1,4 +1,4 @@
-import { AppModule } from '@trungk18/app.module';
+import { AppModule } from '@kinarsardhara/app.module';
 import { TestBed } from '@angular/core/testing';
 
 describe('AppModule', () => {

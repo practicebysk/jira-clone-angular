@@ -1,9 +1,9 @@
 import { Component, Input, OnChanges, OnInit } from '@angular/core';
-import { JIssue, IssuePriority } from '@trungk18/interface/issue';
-import { IssuePriorityIcon } from '@trungk18/interface/issue-priority-icon';
-import { IssueUtil } from '@trungk18/project/utils/issue';
-import { ProjectService } from '@trungk18/project/state/project/project.service';
-import { ProjectConst } from '@trungk18/project/config/const';
+import { JIssue, IssuePriority } from '@kinarsardhara/interface/issue';
+import { IssuePriorityIcon } from '@kinarsardhara/interface/issue-priority-icon';
+import { IssueUtil } from '@kinarsardhara/project/utils/issue';
+import { ProjectService } from '@kinarsardhara/project/state/project/project.service';
+import { ProjectConst } from '@kinarsardhara/project/config/const';
 
 @Component({
   selector: 'issue-priority',

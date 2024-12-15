@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { FormControl } from '@angular/forms';
-import { JUser } from '@trungk18/interface/user';
+import { JUser } from '@kinarsardhara/interface/user';
 
 @Component({
   selector: 'issue-reporter-select',

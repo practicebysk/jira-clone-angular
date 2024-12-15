@@ -1,4 +1,4 @@
-import { AddIssueModalComponent } from '@trungk18/project/components/add-issue-modal/add-issue-modal.component';
+import { AddIssueModalComponent } from '@kinarsardhara/project/components/add-issue-modal/add-issue-modal.component';
 
 describe('AddIssueModalComponent', () => {
   let component: AddIssueModalComponent;

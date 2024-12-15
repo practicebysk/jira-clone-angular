@@ -1,4 +1,4 @@
-import { SideBarLink } from '@trungk18/interface/ui-model/nav-link';
+import { SideBarLink } from '@kinarsardhara/interface/ui-model/nav-link';
 
 export const SideBarLinks = [
   new SideBarLink('Kanban Board', 'board', 'board'),

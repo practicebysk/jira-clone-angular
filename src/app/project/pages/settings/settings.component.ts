@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { ProjectConst } from '@trungk18/project/config/const';
-import { JProject, ProjectCategory } from '@trungk18/interface/project';
-import { ProjectQuery } from '@trungk18/project/state/project/project.query';
+import { ProjectConst } from '@kinarsardhara/project/config/const';
+import { JProject, ProjectCategory } from '@kinarsardhara/interface/project';
+import { ProjectQuery } from '@kinarsardhara/project/state/project/project.query';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { FormGroup, FormBuilder } from '@angular/forms';
-import { ProjectService } from '@trungk18/project/state/project/project.service';
+import { ProjectService } from '@kinarsardhara/project/state/project/project.service';
 import { Router } from '@angular/router';
 import { NzNotificationService } from 'ng-zorro-antd/notification';
-import { NoWhitespaceValidator } from '@trungk18/core/validators/no-whitespace.validator';
+import { NoWhitespaceValidator } from '@kinarsardhara/core/validators/no-whitespace.validator';
 
 @Component({
   templateUrl: './settings.component.html',

@@ -1,4 +1,4 @@
-import { ButtonComponent } from '@trungk18/jira-control/button/button.component';
+import { ButtonComponent } from '@kinarsardhara/jira-control/button/button.component';
 
 describe('ButtonComponent', () => {
   let component: ButtonComponent;

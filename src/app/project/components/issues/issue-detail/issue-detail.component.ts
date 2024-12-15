@@ -1,9 +1,9 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { JIssue } from '@trungk18/interface/issue';
-import { ProjectQuery } from '@trungk18/project/state/project/project.query';
+import { JIssue } from '@kinarsardhara/interface/issue';
+import { ProjectQuery } from '@kinarsardhara/project/state/project/project.query';
 import { NzModalService } from 'ng-zorro-antd/modal';
 import { IssueDeleteModalComponent } from '../issue-delete-modal/issue-delete-modal.component';
-import { DeleteIssueModel } from '@trungk18/interface/ui-model/delete-issue-model';
+import { DeleteIssueModel } from '@kinarsardhara/interface/ui-model/delete-issue-model';
 
 @Component({
   selector: 'issue-detail',

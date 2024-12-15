@@ -1,9 +1,9 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { JProject } from '@trungk18/interface/project';
-import { SideBarLink } from '@trungk18/interface/ui-model/nav-link';
-import { SideBarLinks } from '@trungk18/project/config/sidebar';
-import { ProjectQuery } from '@trungk18/project/state/project/project.query';
+import { JProject } from '@kinarsardhara/interface/project';
+import { SideBarLink } from '@kinarsardhara/interface/ui-model/nav-link';
+import { SideBarLinks } from '@kinarsardhara/project/config/sidebar';
+import { ProjectQuery } from '@kinarsardhara/project/state/project/project.query';
 
 @Component({
   selector: 'app-sidebar',

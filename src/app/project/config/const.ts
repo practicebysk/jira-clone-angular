@@ -1,7 +1,7 @@
-import { IssuePriorityIcon } from '@trungk18/interface/issue-priority-icon';
-import { IssuePriority, IssueType } from '@trungk18/interface/issue';
+import { IssuePriorityIcon } from '@kinarsardhara/interface/issue-priority-icon';
+import { IssuePriority, IssueType } from '@kinarsardhara/interface/issue';
 import { IssueUtil } from '../utils/issue';
-import { IssueTypeWithIcon } from '@trungk18/interface/issue-type-icon';
+import { IssueTypeWithIcon } from '@kinarsardhara/interface/issue-type-icon';
 
 export class ProjectConst {
   /* eslint-disable @typescript-eslint/naming-convention */

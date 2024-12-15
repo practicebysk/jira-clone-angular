@@ -1,4 +1,4 @@
-import { IssueAssigneesSelectComponent } from '@trungk18/project/components/add-issue-modal/issue-assignees-select/issue-assignees-select.component';
+import { IssueAssigneesSelectComponent } from '@kinarsardhara/project/components/add-issue-modal/issue-assignees-select/issue-assignees-select.component';
 
 describe('IssueAssigneesSelectComponent', () => {
   let component: IssueAssigneesSelectComponent;

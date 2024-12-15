@@ -1,5 +1,5 @@
 import { IssueType } from './issue';
-import { IssueUtil } from '@trungk18/project/utils/issue';
+import { IssueUtil } from '@kinarsardhara/project/utils/issue';
 
 export class IssueTypeWithIcon {
   value: string;

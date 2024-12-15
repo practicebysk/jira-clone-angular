@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { ProjectConst } from '@trungk18/project/config/const';
-import { ProjectQuery } from '@trungk18/project/state/project/project.query';
-import { JProject } from '@trungk18/interface/project';
+import { ProjectConst } from '@kinarsardhara/project/config/const';
+import { ProjectQuery } from '@kinarsardhara/project/state/project/project.query';
+import { JProject } from '@kinarsardhara/interface/project';
 import { untilDestroyed, UntilDestroy } from '@ngneat/until-destroy';
 import { Observable } from 'rxjs';
-import { JIssue } from '@trungk18/interface/issue';
-import { ProjectService } from '@trungk18/project/state/project/project.service';
-import { DeleteIssueModel } from '@trungk18/interface/ui-model/delete-issue-model';
+import { JIssue } from '@kinarsardhara/interface/issue';
+import { ProjectService } from '@kinarsardhara/project/state/project/project.service';
+import { DeleteIssueModel } from '@kinarsardhara/interface/ui-model/delete-issue-model';
 
 @Component({
   selector: 'full-issue-detail',

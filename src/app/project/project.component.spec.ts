@@ -1,4 +1,4 @@
-import { ProjectComponent } from '@trungk18/project/project.component';
+import { ProjectComponent } from '@kinarsardhara/project/project.component';
 
 
 describe('ProjectComponent', () => {

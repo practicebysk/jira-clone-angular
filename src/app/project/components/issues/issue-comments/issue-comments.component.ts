@@ -1,5 +1,5 @@
 import { Component, Input  } from '@angular/core';
-import { JIssue } from '@trungk18/interface/issue';
+import { JIssue } from '@kinarsardhara/interface/issue';
 
 @Component({
   selector: 'issue-comments',

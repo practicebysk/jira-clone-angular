@@ -1,4 +1,4 @@
-import { JComment } from '@trungk18/interface/comment';
+import { JComment } from '@kinarsardhara/interface/comment';
 
 describe('JComment', () => {
   let testClass: any;

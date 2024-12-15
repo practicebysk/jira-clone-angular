@@ -1,4 +1,4 @@
-import {IssueDeleteModalComponent} from '@trungk18/project/components/issues/issue-delete-modal/issue-delete-modal.component';
+import {IssueDeleteModalComponent} from '@kinarsardhara/project/components/issues/issue-delete-modal/issue-delete-modal.component';
 
 describe('IssueDeleteModalComponent', () => {
   let component: IssueDeleteModalComponent;

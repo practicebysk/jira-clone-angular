@@ -1,5 +1,5 @@
 import {TestBed} from '@angular/core/testing';
-import {AppRoutingModule} from '@trungk18/app-routing.module';
+import {AppRoutingModule} from '@kinarsardhara/app-routing.module';
 import {RouterTestingModule} from '@angular/router/testing';
 
 describe('AppRoutingModule', () => {

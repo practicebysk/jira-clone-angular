@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { IssueStatus, IssueStatusDisplay, JIssue } from '@trungk18/interface/issue';
-import { ProjectService } from '@trungk18/project/state/project/project.service';
-import { ProjectQuery } from '@trungk18/project/state/project/project.query';
+import { IssueStatus, IssueStatusDisplay, JIssue } from '@kinarsardhara/interface/issue';
+import { ProjectService } from '@kinarsardhara/project/state/project/project.service';
+import { ProjectQuery } from '@kinarsardhara/project/state/project/project.query';
 
 @Component({
   selector: 'issue-status',

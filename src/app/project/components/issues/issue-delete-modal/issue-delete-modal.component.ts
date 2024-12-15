@@ -1,6 +1,6 @@
 import { Component, EventEmitter } from '@angular/core';
 import { NzModalRef } from 'ng-zorro-antd/modal';
-import { DeleteIssueModel } from '@trungk18/interface/ui-model/delete-issue-model';
+import { DeleteIssueModel } from '@kinarsardhara/interface/ui-model/delete-issue-model';
 
 @Component({
   selector: 'issue-delete-modal',

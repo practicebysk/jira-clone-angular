@@ -1,5 +1,5 @@
 import {TestBed} from '@angular/core/testing';
-import {ProjectModule} from '@trungk18/project/project.module';
+import {ProjectModule} from '@kinarsardhara/project/project.module';
 
 describe('ProjectModule', () => {
   let module: ProjectModule;

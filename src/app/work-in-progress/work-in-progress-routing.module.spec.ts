@@ -1,5 +1,5 @@
 import {TestBed} from '@angular/core/testing';
-import {WorkInProgressRoutingModule} from '@trungk18/work-in-progress/work-in-progress-routing.module';
+import {WorkInProgressRoutingModule} from '@kinarsardhara/work-in-progress/work-in-progress-routing.module';
 
 
 describe('WorkInProgressRoutingModule', () => {
